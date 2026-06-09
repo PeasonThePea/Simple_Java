@@ -123,11 +123,13 @@ public class Simple_Java {
 
 
 
-        // Conditional Statement
+        // Conditional Statement 
         /*
+        Logical Operators
         && (AND) - all conditions must be true
         || (OR) - at least one condition must be true
         ! (NOT) - reverses a condition (true = false, false = true)
+        ^ (XOR) - true if only one condition is true, false if both are true or both are false (exclusive or)
         */
         //String
         String question;
@@ -176,7 +178,7 @@ public class Simple_Java {
         else {
             System.out.println(number4 + " is in the range from 0 to 100");
         }
-        //Short Hand if...else
+        //Short Hand if...else or Conditional Operator
         // variable = (condition) ? expressionTrue :  expressionFalse;
         int time = Integer.valueOf(yellow.nextLine());
         /* Instead of
